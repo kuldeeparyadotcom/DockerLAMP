@@ -1,0 +1,2 @@
+sudo docker rm -f DockerLAMP_web
+sudo docker rm -f DockerLAMP_mysql

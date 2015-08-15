@@ -1,0 +1,2 @@
+SRC=/home/kd/DockerLAMP/src
+sudo docker run --name "DockerLAMP_web" --link DockerLAMP_mysql:mysql -v $SRC:/var/www/html/  -P -d kuldeeparyadotcom/dockerlamp:snapshot
